@@ -1,1 +1,1 @@
-# linux_kernel_exp
+no tree can grow to heaven unless its roots reach down to hell
