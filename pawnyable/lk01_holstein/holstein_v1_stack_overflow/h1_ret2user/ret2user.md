@@ -2,13 +2,13 @@ some prerequisites...
 
 ### Kernel modules?
 
-before analyse the Holstein modules, should read this slides of `pwn.college` to understand what is kernel modules: [slides](/pawnyable/lk01_holstein/holstein_v1_stack_overflow/f1_ret2user/assets/Kernel_Security_3_Kernel_Modules.pdf)
+before analyse the Holstein modules, should read this slides of `pwn.college` to understand what is kernel modules: [slides](assets/Kernel_Security_3_Kernel_Modules.pdf)
 
 then can continue read this to understand vuln and analysis: [blog](https://pawnyable.cafe/linux-kernel/LK01/welcome-to-holstein.html#Holstein%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%AE%E8%A7%A3%E6%9E%90)
 
 ### Classic privilege escalation?
 
-before understand what are `prepare_kernel_cred` and `commit_creds`, should read this slides of `pwn.college`: [slides](/pawnyable/lk01_holstein/holstein_v1_stack_overflow/f1_ret2user/assets/Kernel_Security_4_Privilege_Escalation.pdf)
+before understand what are `prepare_kernel_cred` and `commit_creds`, should read this slides of `pwn.college`: [slides](assets/Kernel_Security_4_Privilege_Escalation.pdf)
 
 then, there are two helpful blogs explain details about these: [here](https://github.com/5o1z/kNotes/tree/main/LKE/LK01/V1#prepare_kernel_cred-and-commit_creds) and [here](https://github.com/vilesport/Kernel-exploit/tree/main/Kernel%20Exploit%20Basics/LK01/HTV1#prepare_kernel_cred-and-commit_creds)
 
