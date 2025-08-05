@@ -50,6 +50,6 @@ To return to userspace from kernelspace, we have to `swapgs` and `iretq` or `sys
 - Getting root privileges (by `cred`)
 - Returning to userland (restore state and return to get shell function)
 
-Tutorial: [blog](https://pawnyable.cafe/linux-kernel/LK01/stack_overflow.html#ret2user-ret2usr) and [lkmidas's blog](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/#the-simplest-exploit---ret2usr)(different example but good format)
+Tutorial: [blog](https://pawnyable.cafe/linux-kernel/LK01/stack_overflow.html#ret2user-ret2usr) and [lkmidas's blog](https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/#the-simplest-exploit---ret2usr) (different example but good format)
 
 > exploit code in the same folder
