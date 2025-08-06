@@ -47,6 +47,8 @@ ropr vmlinux --noisy --nosys --nojop -R '^pop rdi.+ret;'
 
 Its worth to read: [this](https://lkmidas.github.io/posts/20210128-linux-kernel-pwn-part-2/#pivoting-the-stack)
 
+> becareful because it only can deal with `smep`, not `smap`, read [this](https://lkmidas.github.io/posts/20210128-linux-kernel-pwn-part-2/#adding-smap)
+
 ### Debug kernel with symbols
 
 Debug kernel is pain, its alot easier when have symbols
