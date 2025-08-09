@@ -26,7 +26,9 @@ For details, please visit those two blogs, very worth.
 
 **Attention**:
 
-lkmidas's code were hard to control program flow (function inside function), so i made it simpler via **label** in `C` (search `"goto label in C"` on google)...
+lkmidas's code were hard to control program flow (function call another function), so i made it simpler via **label** in `C` (search `"goto label in C"` on google)...
+
+> Becareful some compiler doesnt support it. If you want to take the address of a label inside a function in C, you have to use `GCC’s labels-as-values` extension — this is not standard C.
 
 After hijacking kernel's saved `rip`  it will ret2user via `user_rip` and continue execute function until it end:
 
