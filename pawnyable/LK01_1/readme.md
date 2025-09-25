@@ -1,0 +1,1 @@
+some note for first pawnyable series, navigate through all folder for more notes

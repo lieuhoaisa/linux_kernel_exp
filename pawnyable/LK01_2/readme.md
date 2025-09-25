@@ -17,3 +17,5 @@ My heap overflow exploit scripts (in hof folder) have out of bound bugs at `spra
 When heap spraying, if you open any modules or file, remember to close it (i add a cleanup function in uaf exploiting) (first encounter in UAF chapter, i heap spraying then leak then exit without close any fds, the program keep hanging and cant interactive with the shell anymore (imagine like it encounter endless loop). After testing, i know that close fd will solved problems but still dont know reasons yet, so its a good pratice to close any fd before terminating)
 
 My `saved_state` function is not stable as i thought (even i write it to be a macro) (imagine when saved state at function 1 but will trigger hijack at function 2, we easily relize that stack frame will be corrupted) (i think write all the exploit in 1 function will be more stable)
+
+When debuging exploit, add a `getchar()` in a middle of exploit as a breakpoint then using gdb remote into host (its really help)
